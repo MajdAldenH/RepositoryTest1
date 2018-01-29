@@ -19,9 +19,9 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (i %2==0)
-                but_test.setBackground(getDrawable(R.drawable.but_shape_test));
+                but_test.setBackground(getResources().getDrawable(R.drawable.but_shape_test));
                 else
-                but_test.setBackground(getDrawable(R.drawable.but_shape));
+                but_test.setBackground(getResources().getDrawable(R.drawable.but_shape));
                 ++i;
 
             }

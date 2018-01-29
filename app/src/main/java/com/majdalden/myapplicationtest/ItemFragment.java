@@ -31,7 +31,7 @@ public class ItemFragment extends Fragment {
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
-     * fragment (e.g. upon screen orientation changes).
+     * fragment (e.g. upon screen orientation changes to work).
      */
     public ItemFragment() {
     }
